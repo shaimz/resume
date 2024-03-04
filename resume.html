@@ -1,0 +1,100 @@
+
+<html>
+<head>
+  <link href="./app.css" rel="stylesheet" type="text/css">
+</head>
+<header class="l-header">
+  <div class="c-theme">
+    <button class="c-theme__button" style="color: var(--red)" onclick="changeTheme('red')"></button>
+    <button class="c-theme__button" style="color: var(--blue)" onclick="changeTheme('blue')"></button>
+    <button class="c-theme__button" style="color: var(--green)" onclick="changeTheme('green')"></button>
+    <button class="c-theme__button" style="color: var(--mono)" onclick="changeTheme('mono')"></button>
+  </div>
+  <div class="l-header__content l-wrapper">
+    <div class="grid__col grid__col--3-of-3">
+      <div class="c-toggle">
+        <button class="c-toggle__item c-toggle__item--active" data-theme="light"><i class="c-toggle__icon" data-feather="sun"></i>Light</button>
+        <button class="c-toggle__item" data-theme="dark"><i class="c-toggle__icon" data-feather="moon"></i>Dark</button>
+      </div>
+      <div class="c-media">
+        <div class="c-media__content">
+          <h2 class="l-header__title">Cristian Vicol</h2>
+          <div class="l-header__text"><strong>Full Stack Developer&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Chisinau, MD</strong></div>
+          <div class="c-social"><a class="c-social__link" href="#">Instagram</a><a class="c-social__link" href="#">LinkedIn</a><a class="c-social__link" href="#">Twitter</a><a class="c-social__link" href="#">Dribbble</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="l-wrapper d-flex">
+  <div class="grid__col grid__col--1-of-4">
+    <h4 class="u-text--primary">Skills</h4>
+    <h5 class="u-text--secondary bold">Frontend</h5>
+    <ul class="c-list">
+      <li class="c-list__item">VueJS</li>
+      <li class="c-list__item">Javascript/Typescript</li>
+      <li class="c-list__item">jQuery</li>
+      <li class="c-list__item">Vite</li>
+      <li class="c-list__item">Tailwind</li>
+      <li class="c-list__item">Bootstrap</li>
+    </ul>
+    <h5 class="u-text--secondary bold">Backend</h5>
+    <ul class="c-list">
+      <li class="c-list__item">Golang</li>
+      <li class="c-list__item">NodeJS</li>
+      <li class="c-list__item">MySQL</li>
+      <li class="c-list__item">CouchDB</li>
+      <li class="c-list__item">VectorDB/FTS</li>
+    </ul>
+    <h5 class="u-text--secondary bold">Processes</h5>
+    <ul class="c-list">
+      <li class="c-list__item">Git</li>
+      <li class="c-list__item">REST API</li>
+      <li class="c-list__item">Unit Testing</li>
+      <li class="c-list__item">CI/CD Procces</li>
+      <li class="c-list__item">Docker</li>
+      <li class="c-list__item">Kubernetes</li>
+      <li class="c-list__item">AI Integrations</li>
+      <li class="c-list__item">JWT/Basic Auth/Token Auth/Cookies/SAML</li>
+      <li class="c-list__item">Agile/SOLID</li>
+    </ul>
+
+  </div>
+  <div class="grid__col grid__col--3-of-4 d-flex">
+    <div>
+      <h4 class="u-text--primary">Experience</h4>
+      <ul class="c-list">
+        <li class="c-list__item"><strong>TARA Interactive</strong>&nbsp;- Full Stack Developer<br/><span class="u-text--secondary text-italic">November 2021 - Current</span>
+          <ul class="mt-2">
+<li> Developed an <strong>AI Chat</strong> application that improved customer support efficiency by 30%, allowing users to better understand their concerns and collaboratively identify business issues through challenge definitions.</li>
+<li> Implemented advanced management functionalities that are being used by big names like <strong>AGV and Cargill</strong>, resulting in major increases in operational efficiency and reduction in transportation costs.</li>
+<li> Designed and integrated a comprehensive rights system across the company's seven applications, streamlining access control and ensuring data security for over <strong>2000</strong> active users.</li>
+</ul>
+        </li>
+        <li class="c-list__item"><strong>Midnight.Works</strong>&nbsp;- Full Stack PHP Developer<br/><span class="u-text--secondary text-italic">July 2021 - November 2021</span>
+          <ul class="mt-2">
+<li> Successfully delivered visually captivating company presentation websites, increasing <strong>customer engagement by 40%</strong> and improving brand perception.</li>
+<li> Developed an innovative application for <strong>restaurant management</strong>, enabling efficient stock and menu management and transportation cost reduction, resulting in 25% less time spent on administrative tasks.</li>
+</ul>
+        </li>
+        <li class="c-list__item"><strong>MR.X Development</strong>&nbsp;- Full Stack PHP Developer<br/><span class="u-text--secondary text-italic">July 2020 - July 2021</span>
+<ul class="mt-2">
+<li> Led the development and maintenance of <strong>CMS websites</strong> for renowned clients in the Asian market, managing high volumes of traffic with over 1 million monthly visitors.</li>
+<li> Implemented new functionalities for e-commerce websites resulting in a <strong>15% increase</strong> in conversion rates and a <strong>20% improvement</strong> in user experience.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="u-text--primary">Contact</h4>
+      <ul class="c-list">
+        <li class="c-list__item"><a class="c-list__link" href="#"><i class="c-list__icon" data-feather="mail"> </i>cvicol2@gmail.com</a></li>
+        <li class="c-list__item"><a class="c-list__link" href="#"><i class="c-list__icon" data-feather="phone"> </i>(373) 68 614 765</a></li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+
+<script src="./app.js"></script>
+</html>
